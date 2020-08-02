@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Real Time Chat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <h1 style="color:white">Hey there, Let's get chatting!</h1>
+    <form>
+      <input id="message" type="text" placeholder="Type you message here" />
+      <input class="ibutton" type="submit" value="Send" />
+    </form>
+
+    <ul id="thread">
+      <!-- <li><div class="box">Hey</div></li>
+      <li><div class="box">Howdy</div></li> -->
+    </ul>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script src="client.js"></script>
+  </body>
+</html>

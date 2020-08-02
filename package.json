@@ -1,0 +1,23 @@
+{
+  "name": "chat_snehal",
+  "version": "1.0.0",
+  "description": "Real time chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jogdandsnehal14/RealTimeChat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jogdandsnehal14/RealTimeChat/issues"
+  },
+  "homepage": "https://github.com/jogdandsnehal14/RealTimeChat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}

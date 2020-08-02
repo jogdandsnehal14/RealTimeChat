@@ -1,0 +1,82 @@
+html, body {
+    text-align: center;
+    font-family: 'Avenir Next', 'Helvetica', 'Arial', sans-serif;
+    background-image: url('https://bing.com/th?id=OHR.LavaShip_EN-US6422813488_UHD.jpg&rf=LaDigue_UHD.jpg&w=2880&h=1620&c=8&rs=1&o=3&r=0');
+    background-size: cover;
+  
+  }
+
+  html,body,li,form,ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  form {
+    padding-bottom: 2%;
+  }
+
+  li {
+    text-align: right;
+    color: white;
+    font-size: 18px;
+    list-style: none;
+    padding: 10px;
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  li:nth-child(odd) {
+    text-align: left;
+  }
+
+  .box {
+    margin-right: 0;
+    margin-left: auto;
+    border: 1px solid;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  li:nth-child(odd) .box {
+    margin-right: auto;
+    margin-left: 0;
+  }
+
+  #message{
+    width:350px;
+    height:30px;
+    margin-top: 50px;
+  }
+
+  h1{
+    padding-top: 50px;
+  }
+
+  input.ibutton {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.5em 3em;
+    border: 0.16em solid #0d155e;
+    margin: 0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    transition: all 0.15s;
+    background-color: darkblue;
+  }
+
+  input.ibutton:hover {
+    color: #DDDDDD;
+    border-color: #DDDDDD;
+  }
+
+  input.ibutton:active {
+    color: #BBBBBB;
+    border-color: #BBBBBB;
+  }
+    
